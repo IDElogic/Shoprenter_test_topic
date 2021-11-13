@@ -1,12 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 *{
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand";
 }
 .wrapper {
-  max-width: 1780px;
+  max-width: 1920px;
   margin: 0px auto;
 }
 body {
   margin: 0px;
   padding:0px;
 }
+.navbar-container {
+    width: 100vw;
+    height: 160px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: #ffffff;
+    background-color: #212121;
+  }
+  .navbar-container-top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
