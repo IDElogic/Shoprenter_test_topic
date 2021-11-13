@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+*{
+  box-sizing: border-box;
+}
+.wrapper {
+  max-width: 1780px;
+  margin: 0px auto;
+}
+body {
+  margin: 0px;
+  padding:0px;
+}
