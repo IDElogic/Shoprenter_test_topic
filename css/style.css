@@ -23,6 +23,21 @@ body {
     color: #ffffff;
     background-color: #212121;
   }
+  @media screen and (max-width: 1920px) {
+    .navbar-container {
+      width: 100vw;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .navbar-container{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      flex-direction: column;
+      height: fit-content;
+    }
+  }
   .navbar-container-top {
     display: flex;
     justify-content: space-between;
@@ -31,6 +46,11 @@ body {
   .navbar-leftside {
     display: flex;
     margin-left: 50px; 
+  }
+  @media screen and (max-width: 1024px) {
+    .navbar-leftside {
+      display: none;
+    }
   }
   .navbar-center {
     margin-top: 30px; 
@@ -45,6 +65,12 @@ body {
     font-weight: 700;
     line-height: 20px;
     color: #a6a6a6;  
+  }
+  @media screen and (max-width: 1024px) {
+    .navbar-rightside {
+      width: 100%;
+      padding-top: 24px;
+    }
   }
   .separator {
     margin-left: 14px;
@@ -70,6 +96,11 @@ body {
     text-align: center;
     text-transform: uppercase; 
   }
+  @media screen and (max-width: 1024px) {
+    .navbar-center {
+      display: none;
+    }
+  }
   #title1 {
     color: #f67da1;
   }
@@ -77,13 +108,30 @@ body {
     margin-top: 44px;
     margin-right: 50px; 
   }
+  @media screen and (max-width: 1024px) {
+    #profile-icon {
+      margin-top: 11px;
+      margin-right: 10px;
+    }
+  }
   #favourites-icon {
     margin-top: 44px;
     margin-right: 50px;
   }
+  @media screen and (max-width: 1024px) {
+    #favourites-icon {
+      margin-top: 11px;
+      margin-right: 10px;
+    }
+  }
   #bag-icon {
     margin-right: 50px;
     margin-top: 39px;
+  }
+  @media screen and (max-width: 1024px) {
+    #bag-icon {
+      margin-top: 6px;
+    }
   }
   #search {
     margin-top: 46px;
@@ -102,6 +150,17 @@ body {
     border-bottom: #5c5c5c 1px solid;
     outline: x;
   }
+  @media screen and (max-width: 1024px) {
+    #search {
+      margin-top: 11px;
+      margin-left: 34px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    #search {
+      display: none;
+    }
+  }
   .navbar-container-bottom {
     display: flex;
     justify-content: space-between;
@@ -113,6 +172,12 @@ body {
     margin-left: 307px;
     font-weight: 500;
   }
+  @media screen and (max-width: 1024px) {
+    .navbar-container-bottom {
+      width: unset;
+      display: none;
+    }
+  }
   .arrow {
     border: solid white;
     border-width: 0 2px 2px 0;
@@ -122,6 +187,21 @@ body {
     -webkit-transform: rotate(45deg);
     margin-bottom: 2px;
     margin-left: 2px;
+  }
+  a {
+    color: inherit;
+  }
+  a:link {
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  a:active {
+    text-decoration: none;
   }
   .dropbtn {
     background: none;
