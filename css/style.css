@@ -26,3 +26,156 @@ body {
     justify-content: space-between;
     width: 100%;
   }
+  .navbar-leftside {
+    display: flex;
+    margin-left: 50px; 
+  }
+  .navbar-center {
+    margin-top: 30px; 
+  }
+  .navbar-rightside {
+    display: flex;
+  }
+  #phone {
+    margin-top: 44px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #a6a6a6;  
+  }
+  .separator {
+    margin-left: 14px;
+    margin-right: 14px;
+    font-size: 17px;
+    color: #5c5c5c;
+  }
+  .info {
+    margin-top: 47px;
+    max-width: 270px;
+    line-height: 15px;
+    font-size: 12px; 
+    font-weight: 500;
+    color: #f1f1f1;
+    margin-left: 37px;
+  }
+  .navbar-center {
+    margin-top: 30px;
+    width: 203px;
+    height: 45px;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase; 
+  }
+  #title1 {
+    color: #f67da1;
+  }
+  #profile-icon {
+    margin-top: 44px;
+    margin-right: 50px; 
+  }
+  #favourites-icon {
+    margin-top: 44px;
+    margin-right: 50px;
+  }
+  #bag-icon {
+    margin-right: 50px;
+    margin-top: 39px;
+  }
+  #search {
+    margin-top: 46px;
+    width: 240px;
+    height: 27px;
+    margin-right: 42.82px;
+    line-height: 17px;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    color: #f1f1f1;
+    font-weight: 500;
+    background-position-y: 0;
+    background-position-x: 210px;
+    background-color: inherit;
+    border: none;
+    border-bottom: #5c5c5c 1px solid;
+    outline: x;
+  }
+  .navbar-container-bottom {
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+    justify-items: center;
+    width: 1300px;
+    font-size: 16px;  
+    margin-top: 49px;
+    margin-left: 307px;
+    font-weight: 500;
+  }
+  .arrow {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-bottom: 2px;
+    margin-left: 2px;
+  }
+  .dropbtn {
+    background: none;
+    color: inherit;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#5c5c5c;
+    min-width: 160px;
+    overflow: auto;
+    z-index: 1;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #212121;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: justify;
+  }
+  .show {
+    display: block;
+  }
+  
+  .hamburger {
+    display: none;
+  }
+  @media screen and (max-width: 1024px) {
+    .hamburger {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      align-self: center;
+      width: 200px;
+      min-height: 80px;
+      font-size: 20px;
+      background-color: transparent;
+      color: #ffffff;
+      border: none;
+      cursor: pointer; 
+    }
+    .hamburger:focus {
+      outline: none;
+    }
+    .navbar-container-bottom.show > a {
+      display: block;
+      text-align: center;
+      line-height: 30px;
+    }
+  }
+
